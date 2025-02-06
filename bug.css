@@ -1,0 +1,7 @@
+The CSS rule `:nth-child(n)` is not working as expected.  I'm trying to select every other element in a list but it's not highlighting them correctly. I suspect there is some interaction I'm missing with other styles. My current CSS is as follows:
+```css
+li:nth-child(even) {
+  background-color: yellow;
+}
+```
+This should highlight every other list item, but it only partially works. Some items are missed, or the highlighting is inconsistent.  I've checked my HTML for errors and it seems fine. 
